@@ -1,7 +1,7 @@
 {
-  "name": "@websessions/layout",
+  "name": "@websessions/lay",
   "version": "1.0.0",
-  "description": "",
+  "description": "Layout system built with [styled-components] and [styled-system] for React. Features basic box-model components, flexbox components (including a [bootstrap-style grid implementation](#row)), and CSS grid components.",
   "author": "websessions",
   "homepage": "https://github.com/websessions/lay",
   "license": "ISC",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/websessions/lay"
+    "url": "git+https://github.com/websessions/lay.git"
   },
   "bugs": {
     "url": "https://github.com/websessions/lay/issues"
@@ -31,5 +31,8 @@
   },
   "keywords": [
     "websessions"
-  ]
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
