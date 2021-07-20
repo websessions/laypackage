@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "author": "websessions",
-  "homepage": "https://github.com/somethingnew-co/websessions/lay",
+  "homepage": "https://github.com/websessions/lay",
   "license": "ISC",
   "main": "dist/index.js",
   "files": [

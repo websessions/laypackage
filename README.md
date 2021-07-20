@@ -8,7 +8,7 @@ Layout system built with [styled-components] and [styled-system] for React. Feat
 
 ```sh
 npm install styled-components styled-system
-npm install @stnew/layout
+npm install @websessions/layout
 ```
 
 It's _*highly*_ recommended to apply `box-sizing: border-box` globally to all elements, or at the very least the element wrapping any of the layout components. As of version `1.4.0`, this is no longer applied to all [`<Box>`] components as it adds bloat.
@@ -62,7 +62,7 @@ The following properties are required on `theme.grid`. Responsive props can be a
 Basic layout building block. Includes `background`, `border`, `color`, `flexbox`, `grid`, `layout`, `position`, `space`,  and `typography` props from [styled-system]. All `<Box>` components render a `div` by default and have no styling applied.
 
 ```javascript
-import { Box } from '@stnew/layout'
+import { Box } from '@websessions/layout'
 
 const ComponentA = () => (
   <Box>Hello world!</Box>
@@ -86,7 +86,7 @@ const ComponentB = ({ size = '50px' }) => (
 Extension of [`<Box>`] with max-width and padding applied. These are set via the [`theme.grid` props](#themegrid-spec). This is used as a page or section wrapper.
 
 ```javascript
-import { Container, Box } from '@stnew/layout'
+import { Container, Box } from '@websessions/layout'
 
 const Component = () => (
   <Container>
@@ -102,7 +102,7 @@ Extension of [`<Box>`] with `display: grid`.
 `<Grid>` has `grid-template-columns` and `grid-column-gap` applied, corresponding the [`theme.grid` props](#themegrid-spec) `columns` and `columnGap`, respectively. `grid-template-columns` defaults to `repeat(n, 1fr)` to fill available space, but this can be overridden using [styled-system]'s grid props.
 
 ```javascript
-import { Grid, Box } from '@stnew/layout'
+import { Grid, Box } from '@websessions/layout'
 
 const Component = () => (
   <Grid>
@@ -118,7 +118,7 @@ const Component = () => (
 Extension of [`<Box>`] with `display: flex`.
 
 ```javascript
-import { Flex, Box } from '@stnew/layout'
+import { Flex, Box } from '@websessions/layout'
 
 const ComponentA = () => (
   <Flex height="100vh" justifyContent="center" alignItems="center">
@@ -155,7 +155,7 @@ The number of columns you can span correspond to the `theme.grid.columns` proper
 _* Every `<Col>` is `position: relative`, to enable the `push` and `pull` props._
 
 ```javascript
-import { Flex } from '@stnew/layout'
+import { Flex } from '@websessions/layout'
 
 const ComponentA = () => (
   <Container>
