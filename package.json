@@ -16,12 +16,6 @@
     "type": "git",
     "url": "git+https://github.com/websessions/lay"
   },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "tsc",
-    "prepare": "npm run build",
-    "prepublishOnly": "rm -rf dist && npm run build"
-  },
   "bugs": {
     "url": "https://github.com/websessions/lay/issues"
   },
