@@ -1,0 +1,41 @@
+{
+  "name": "@websessions/layout",
+  "version": "1.0.0",
+  "description": "",
+  "author": "websessions",
+  "homepage": "https://github.com/somethingnew-co/websessions/lay",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websessions/lay"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "rm -rf dist && npm run build"
+  },
+  "bugs": {
+    "url": "https://github.com/websessions/lay/issues"
+  },
+  "peerDependencies": {
+    "@styled-system/css": "^5.1.5",
+    "@styled-system/should-forward-prop": "^5.1.5",
+    "styled-components": "^5.1.0",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "@types/styled-system": "^5.1.9",
+    "csstype": "latest"
+  },
+  "keywords": [
+    "websessions"
+  ]
+}
