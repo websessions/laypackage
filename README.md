@@ -1,4 +1,4 @@
-# @stnew/layout
+# @websessions/lay
 
 Layout system built with [styled-components] and [styled-system] for React. Features basic box-model components, flexbox components (including a [bootstrap-style grid implementation](#row)), and CSS grid components.
 
